@@ -5,14 +5,25 @@
 <img src="img/population1.png" style="height: 200px;"/>
 </div>
 
----
+## This is a *heterogeneous* cell population
 
 <div class="centered">
 <img src="img/block.png" style="height: 200px;"/>
 <img src="img/population2.png" style="height: 200px;"/>
 </div>
 
----
+
+----
+
+**Methylation pattern reconstruction problem**
+
+- Given a set of mapped reads
+
+<div class="centered">
+<img src="img/meth_pileup.png" style="height: 400px;"/>
+</div>
+
+----
 
 **Methylation pattern reconstruction problem**
 

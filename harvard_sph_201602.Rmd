@@ -14,19 +14,33 @@ output:
 
 ----
 
-**What does my group do?**
+**Interdisciplinary Group**
 
+- Computer Science
+- Applied Statistics and Scientific Computation
+- Computational Biology
+
+**Central theme**
+
+- Computational and statistical **method** and **tool** development
 - Study the **molecular** basis of *variation* in development and disease
 - Using **high-throughput** experimental methods
 
 
-## The genomic revolution
+----
 
-- For over a decade we have laid the basic molecular blueprint by **sequencing** DNA
+**Metagenomics**
 
-<div class="centered">
-<img src="img/genome_projects.png" style="max-height: 100%; max-width: 100%"/>
-</div>
+- DNA sequencing of bacterial communities
+- Method and tool development: `metagenomeSeq` Bioconductor package
+- Large epidemiological study of childhood diahrrea in developing countries
+
+**Host-pathogen interaction**
+
+- Joint RNA-sequencing of parasite and host cell during course of infection
+- Novel methodology for RNA-seq normalization and differential expression analysis
+
+**Computational Epigenomics**
 
 ----
 
@@ -42,18 +56,18 @@ output:
 
 **NHGRI strategic plan**
 
-"The major bottleneck in genome sequencing is no longer **data generation**—the computational challenges around **data analysis**, display and integration are now rate limiting. New approaches and methods are required to meet these challenges."
+> "The major bottleneck in genome sequencing is no longer **data generation**—the computational challenges around
+> **data analysis**, display and integration are now rate limiting. New approaches and methods are required 
+> to meet these challenges."
 
 - Data analysis 
-- Data integration
 - Visualization
+- Data integration
 - Computational tools and infrastructure
 
 <footer class="source">[Nature, 2011]</footer>
 
 ----
-
-My group's work as a simplex
 
 <div class="centered">
 <img src="img/hcbravolab_simplex.png" style="height: 500px;"/>
@@ -61,27 +75,31 @@ My group's work as a simplex
 
 # Computational Epigenomics
 
-```{r child='epigenomics.Rmd', eval=FALSE }
+```{r child='epigenomics.Rmd', eval=TRUE }
 ```
 
-```{r child='antiprofiles.Rmd', eval=FALSE }
+```{r child='methylflow.Rmd', eval=TRUE }
 ```
 
-```{r child='methylflow.Rmd', eval=FALSE }
+```{r child='epigenomics2.Rmd', eval=TRUE }
+```
+
+```{r child='antiprofiles.Rmd', eval=TRUE }
 ```
 
 ## Moving forward
 
+>- better understand connection between intra-tumor heterogeneity and consistent hyper-variability in cancer
+>- how to understand population-level inferences from features (measurements) that are themselves _inferred_
 >- move anti-profiles closer to the clinic
 >- explore _anomaly classification_ as a general learning setting
 >- methods to understand hierarchical organization of epigenomic domains
->- better understand connection between intra-tumor heterogeneity and consistent hyper-variability in cancer
 
 ----
 
-- Discoveries: consistent hypo-methylation, hyper-variability
-- Methods: anomaly classification as a setting to understand predictor stability
-- Tools
+- Discovery: consistent hypo-methylation, hyper-variability
+- Methods: anomaly classification as a setting to understand predictor stability, methylation pattern reconstruction
+- _Tools_
 
 <div class="centered">
 <img src="img/hcbravolab_simplex.png" style="height: 400px;"/>
@@ -94,8 +112,8 @@ My group's work as a simplex
 
 ## Moving forward
 
-- collaborative computational and visual analysis (w/ N. Elmqvist @ HCIL)
-- effective visual methods to explore hierarchical organization of genome
+- collaborative computational and visual analysis
+- effective visual methods to explore hierarchical organization of (epi)-genome
 - deeper integration of statistically-informed visualization
 - visualization-informed statistical analysis
 
@@ -118,9 +136,14 @@ My group's work as a simplex
 
 **NHGRI strategic plan**
 
-"Meeting the computational challenges for genomics requires scientists with expertise in biology as well as in informatics, computer science, mathematics, statistics and/or engineering." 
+> "Meeting the computational challenges for genomics requires scientists with expertise in biology as well as in informatics, computer science, mathematics, statistics and/or engineering." 
 
 _A new generation of investigators who are proficient in two or more of these fields must be trained and supported._
+
+Courses taught and created:
+- Undergraduate Computational Biology: sequence analysis and beyond
+- Graduate Functional Genomics
+- Undergraduate Data Science
 
 ----
 
