@@ -1,0 +1,48 @@
+<div class="centered">
+<img src="img/hmp.png" style="height: 400px;"/>
+</div>
+
+<footer class="source">[Human Microbiome Project]</footer>
+
+
+## Metagenomics (mixed genomes)
+
+- Discoveries: pathogenic associations for childhood diarrhea in developing world. (Genome Biology, 2014)
+- Methods: association discovery for metagenomic communities. (Nature Methods, 2013)
+- Tools: `metagenomeSeq`, `metagenomicFeatures`, `metaviz`
+
+---
+
+**Coordinates**:
+
+<div class="centered">
+<img src="img/tree.png" style="height: 700px;"/>
+</div>
+
+---
+
+**Samples**:
+<div class="centered">
+<img src="img/meta_heatmap.jpg" style="height: 500px;"/>
+</div>
+
+
+---
+
+
+<div class="centered">
+<img src="img/data_sources_with_hierarchy.png" style="max-height: 45%; max-width: 45%"/>
+</div>
+
+Hierachically organized features
+
+---
+
+Hierarchically organized features
+
+<div class="centered">
+<video height="500" controls>
+  <source src="movies/metavizr1.mp4" type="video/mp4">
+</video>
+</div>
+
