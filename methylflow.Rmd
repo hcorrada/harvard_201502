@@ -12,6 +12,15 @@
 <img src="img/population2.png" style="height: 200px;"/>
 </div>
 
+----
+
+**Methylation pattern reconstruction problem**
+
+`methylFlow`: [http://github.com/hcorrada/methylFlow](http://github.com/methylFlow)
+
+<div class="centered">
+<img src="img/faezeh_lee.png" style="height: 250px;"/>
+</div>
 
 ----
 
@@ -42,10 +51,20 @@
 <img src="img/methylflow.png" style="height: 500px;"/>
 </div>
 
----
+----
+
+**The statistic: number of reads in genomic region**
 
 <div class="centered">
-<img src="img/region_graph.png" style="height: 250px;"/>
+<img src="img/reads_to_graph.png" style="height: 325px;"/>
+</div>
+
+---
+
+**The model: expected number of reads in genomic region**
+
+<div class="centered">
+<img src="img/region_graph.png" style="height: 425px;"/>
 </div>
 
 $$
@@ -53,6 +72,8 @@ $$
 $$
 
 ---
+
+**The estimator**
 
 <div class="centered">
 <img src="img/region_graph.png" style="height: 250px;"/>
@@ -65,4 +86,8 @@ $$
 $$
 \min_{\theta_p} \sum_v |y_v - \sum_{u:(v,u)\in E} \ell_{vu} \sum_{p:(v,u)\in p} \theta_p | + \lambda \sum_p |\theta_p |
 $$
+
+## Summary
+
+Why do we care about intra-tumor heterogeneity?
 

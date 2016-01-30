@@ -1,4 +1,4 @@
----
+## Hyper-variable expression
 
 <div class="centered">
 <img src="img/antiprofile.png" style="height: 400px;"/>
