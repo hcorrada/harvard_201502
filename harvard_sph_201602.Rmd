@@ -44,6 +44,12 @@ output:
 
 ----
 
+<div class="centered">
+<img src="img/hcbravolab_simplex.png" style="height: 500px;"/>
+</div>
+
+----
+
 **NHGRI strategic plan**
 
 <div class="centered">
@@ -66,12 +72,6 @@ output:
 - Computational tools and infrastructure
 
 <footer class="source">[Nature, 2011]</footer>
-
-----
-
-<div class="centered">
-<img src="img/hcbravolab_simplex.png" style="height: 500px;"/>
-</div>
 
 # Computational Epigenomics
 
