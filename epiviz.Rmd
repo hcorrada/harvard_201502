@@ -65,7 +65,7 @@ e.g.: http://epiviz.cbcb.umd.edu/?ws=YOsu0RmUc9l
 
 ---
 
-<iframe src="http://epiviz.cbcb.umd.edu/?ws=YOsu0RmUc9l" height="800"></iframe>
+<iframe src="http://epiviz.cbcb.umd.edu/?ws=YOsu0RmUc9l" height="900"></iframe>
 
 ---
 
@@ -174,10 +174,10 @@ One interpretation of *Big Data* is *Many relevant sources of contextual data*
 **Visualization goals**
 
 - Context 
-  - Integrate and align multiple data sources; navigate; search
-  - *Connect*: brushing
-  - *Encode*: map visualization properties to data on the fly
-  - *Reconfigure*: multiple views of the same data
+    - Integrate and align multiple data sources; navigate; search
+    - *Connect*: brushing
+    - *Encode*: map visualization properties to data on the fly
+    - *Reconfigure*: multiple views of the same data
 
 <footer class="source">[Perer & Shneiderman]</footer>
 
@@ -186,10 +186,10 @@ One interpretation of *Big Data* is *Many relevant sources of contextual data*
 **Visualization goals**
 
 - Data
-  - *Select and filter*: tight-knit integration with R/Bioconductor; 
-  - (current work) filters on visualization propagate to data environment
+    - *Select and filter*: tight-knit integration with R/Bioconductor; 
+    - (current work) filters on visualization propagate to data environment
 - Model
-  - New 'measurements' the result of modeling; perhaps suggested by data context
+    - New 'measurements' the result of modeling; perhaps suggested by data context
 
 <footer class="source">[Perer & Shneiderman]</footer>
 

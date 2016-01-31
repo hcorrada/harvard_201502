@@ -1,4 +1,8 @@
-## Hyper-variable expression
+---
+
+---
+
+----
 
 <div class="centered">
 <img src="img/antiprofile.png" style="height: 400px;"/>
@@ -8,7 +12,7 @@ Genes with **hyper-variable** expression in colon cancer are enriched within the
     
 <footer class="source">Nat. Genetics, 2011</footer>
       
----
+----
       
 <div class="centered">
 <img src="img/timp2.png" style="height: 400px;"/>
@@ -18,7 +22,7 @@ Gene expression **hyper-variability** enriched in hypo-methylation blocks in oth
         
 <footer class="source">Genome Medicine, 2014</footer>
           
----
+----
           
 <div class="centered">
 <img src="img/barcode.png" style="max-height: 45%; max-width: 45%"/>
@@ -29,11 +33,5 @@ Genes with **consistent hyper-variable expression** across tumors are _tissue-sp
               
 <footer class="source">BMC Bioinformatics, 2013</footer>
                 
-## Summary
-                
-- large domains of methylation loss are a stable mark across cancer types
-- gene expression hyper-variability is enriched within these domains
-- hyper-variable genes within these regions are tissue-specific and involved in cellular fate
-- determinants of expression variability in normal tissue [Nucleic Acids Research, 2013]
               
               

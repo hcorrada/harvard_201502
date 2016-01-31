@@ -97,7 +97,7 @@ output:
 
 ----
 
-- Discovery: consistent hypo-methylation, hyper-variability
+- Discovery: consistent hypo-methylation and hyper-variability associated with progression and prognosis
 - Methods: anomaly classification as a setting to understand predictor stability, methylation pattern reconstruction
 - _Tools_
 
@@ -106,7 +106,7 @@ output:
 </div>
 
 
-```{r child='epiviz.Rmd', eval=FALSE }
+```{r child='epiviz.Rmd', eval=TRUE }
 ```
 
 
@@ -117,6 +117,10 @@ output:
 - deeper integration of statistically-informed visualization
 - visualization-informed statistical analysis
 
+<div class="centered">
+<img src="img/florin.png" style="height: 200px;" />
+</div>
+
 ----
 
 - Discoveries: consistent hypo-methylation, hyper-variability
@@ -126,8 +130,6 @@ output:
 <div class="centered">
 <img src="img/hcbravolab_simplex.png" style="height: 400px;"/>
 </div>
-
-## Metagenomics (mixed genomes)
 
 ```{r child="metagenomics.Rmd", eval=FALSE }
 ```
@@ -140,7 +142,8 @@ output:
 
 _A new generation of investigators who are proficient in two or more of these fields must be trained and supported._
 
-Courses taught and created:
+Courses taught and/or created:
+
 - Undergraduate Computational Biology: sequence analysis and beyond
 - Graduate Functional Genomics
 - Undergraduate Data Science

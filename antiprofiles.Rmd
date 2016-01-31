@@ -5,6 +5,10 @@
 - very few proposed predictors are translated to the clinic
 - one of the biggest culprits is lack of replicability of results in preliminary studies
 
+<div class="centered">
+<img src="img/wikum.png" style="height: 200px;" />
+</div>
+
 ---
 
 <div class="centered">
@@ -12,43 +16,6 @@
 </div>
 
 _anti-profile score_: measures sample-specific deviation from normal expression in consistently hyper-variable genes
-
-<footer class="source">BMC Bioinformatics, 2013</footer>
-
----
-
-- **Feature selection**: top 100 genes with greatest **hyper-variable** expression in tumor:
-
-$$
-\log_2 \frac{\text{std. dev}_{\text{cancer}}}{\text{std. dev}_{\text{normal}}}
-$$
-
-- **Range of normal expression**: 
-
-$$
-\mathrm{med} \, \text{normal expression}_g \pm 5 \times \mathrm{mad} \, \text{normal expression}_g
-$$
-
-- **anti-profile score**: number of genes in sample where expression is outside normal range
-
----
-
-<div class="centered">
-<img src="img/stable.png" style="max-height: 85%; max-width: 85%;"/>
-</div>
-
-Good cross-experiment properties  
-Stability in _normal_ expression across experiments
-
-<footer class="source">BMC Bioinformatics, 2013</footer>
-
----
-
-<div class="centered">
-<img src="img/aucs.png" style="max-height: 45%; max-width: 45%;"/>
-</div>
-
-Prediction in leave-one-tissue out experiment  
 
 <footer class="source">BMC Bioinformatics, 2013</footer>
 
@@ -92,23 +59,13 @@ Stratification of breast samples based on anti-profile score
 
 <footer class="source">Cancer Informatics, 2015</footer>
 
-## Summary
-
->- Simple counting scheme produces robust stable and accurate (anti)-profiles  
->- Nice prediction properties _across experiments_ and _across tissue types_  
->- Captures increasing hyper-variability associated with progression and prognosis
-
 ## Anomaly Classification
 
-- Distinguish observations from two _anomalous_ groups (e.g., adenoma vs. tumor)
-- How can we incorporate the fact that we are classifying anomalies?
-- Why (and when) is it worth doing that?
-- Using function approximation methods to study predictor stability
-
-## Summary
-
 >- Profiles learned based on hyper-variability show consistent behavior across tissues and across experiments in tumor prognosis and progression
->- We can extend the general anti-profile idea to a function approximation setting
->- Use sensitivity-based cross-validation error bounds to characterize the effect of incorporating normal observations when classifying between anomalies
+>- Distinguish observations from two _anomalous_ groups (e.g., adenoma vs. tumor)
+>- How can we incorporate the fact that we are classifying anomalies?
 >- Incorporating normal samples when building anomaly predictors improves stability and prediction performance
+>- Why (and when) is it worth doing that?
+>- Using function approximation methods to study predictor stability
 
+<footer class="source">BMC Bioinformatics, 2013, Cancer Informatics, 2015</footer>
