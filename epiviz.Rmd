@@ -29,12 +29,12 @@ platform
 
 **Collaborative and exploratory analysis**
 
-> - Data transformation and modeling: data smoothing, region finding (R/Bioconductor: `Bsmooth`, `minfi`)
-> - Genome browsing: search by gene, search by overlap
-> - Region analysis: overlap with other data (our own, other labs, UCSC, ensembl)
-> - Regulation: expression data (Gene Expression Barcode)
+>- Data transformation and modeling: data smoothing, region finding (R/Bioconductor: `Bsmooth`, `minfi`)
+>- Genome browsing: search by gene, search by overlap
+>- Region analysis: overlap with other data (our own, other labs, UCSC, ensembl)
+>- Regulation: expression data (Gene Expression Barcode)
 
-## Genomic Data Science! 
+## Genomic Data Science 
 
 - We have unprecedented ability to measure
 - and lots of publicly available data to contextualize it

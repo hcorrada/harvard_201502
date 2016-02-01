@@ -12,9 +12,7 @@
 <img src="img/population2.png" style="height: 200px;"/>
 </div>
 
-----
-
-**Methylation pattern reconstruction problem**
+## Methylation pattern reconstruction problem
 
 `methylFlow`: [http://github.com/hcorrada/methylFlow](http://github.com/methylFlow)
 
@@ -24,9 +22,7 @@
 
 <footer class="source">[Bioinformatics, in press]</footer>
 
-----
-
-**Methylation pattern reconstruction problem**
+## Methylation pattern reconstruction problem
 
 - Given a set of mapped reads
 
@@ -34,9 +30,7 @@
 <img src="img/meth_pileup.png" style="height: 400px;"/>
 </div>
 
-----
-
-**Methylation pattern reconstruction problem**
+## Methylation pattern reconstruction problem
 
 - Given a set of mapped reads
 - Determine _composition_ of cell-specific methylation patterns
@@ -45,9 +39,8 @@
 <img src="img/patterns.png" style="height: 300px;"/>
 </div>
 
----
 
-**Methylation pattern reconstruction problem**
+## Methylation pattern reconstruction problem
 
 <div class="centered">
 <img src="img/methylflow.png" style="height: 500px;"/>
@@ -101,7 +94,7 @@ $$
 \min_{\theta_p} \sum_v \lvert y_v - \sum_{u:(v,u)\in E} \ell_{vu} \sum_{p:(v,u)\in p} \theta_p \rvert + \lambda \sum_p \lvert \theta_p \rvert
 $$
 
-If we interpret _abundance_ as _path flow_, then we can rewrite in terms of _edge flows_
+Interpret _abundance_ as _path flow_, then rewrite as _edge flows_
 
 $$
 f_{vu} = \sum_{p:(v,u) \in p} \theta_p
@@ -115,7 +108,7 @@ $$
 \min_{\theta_p} \sum_v \lvert y_v - \sum_{u:(v,u)\in E} \ell_{vu} \sum_{p:(v,u)\in p} \theta_p \rvert + \lambda \sum_p \lvert \theta_p \rvert
 $$
 
-If we interpret _abundance_ as _path flow_, then we can rewrite in terms of _edge flows_
+Interpret _abundance_ as _path flow_, then rewrite as _edge flows_
 
 $$
 f_{vu} = \sum_{p:(v,u) \in p} \theta_p
@@ -161,6 +154,8 @@ _Reconstruct patterns with accurate marginal estimates_
 <img src="img/bcell2.png" style="height: 525px;" />
 </div>
 
+(correlation ~.93)
+
 ---
 
 **Pattern reconstruction from targeted bisulfite sequencing**
@@ -173,22 +168,22 @@ _Compare patterns across samples and populations_
 
 ## Moving Forward
 
-- We are now able to estimate methylation pattern composition for a single sample (e.g., normal or tumor)
-- How to detect differences between cell populations:
-    + For paired normal-tumor data, find genomic regions where methylation pattern composition changes (significantly)?
+>- Able to estimate methylation pattern composition for single sample (e.g., normal or tumor)
+>- How to detect differences between cell populations:
+    + For paired normal-tumor data, find genomic regions where methylation pattern composition changes significantly
     + For samples across developmental course, how does composition change as differentiation occurs?
-- How should we think about population-level inferences from measurements that are themselves _inferred_?
+>- How should we think about population-level inferences from measurements that are themselves _inferred_?
 
 ## Cell-specific methylation pattern reconstruction
 
-- New view into molecular profiling
+>- New view into molecular profiling
     + Complex relationship between cell-to-cell differences and average methylation differences
     + Complementary to single-cell bisulfite sequencing
-- Efficient formulation as network flow problem
+>- Efficient formulation as network flow problem
     + Exploring relationship to stochastic optimization
-- Code: [https://github.com/hcorrada/methylFlow/](https://github.com/hcorrada/methylFlow/)
+>- Code: [https://github.com/hcorrada/methylFlow/](https://github.com/hcorrada/methylFlow/)
     + Includes incipient R package to parse and analyze resulting data
     + Takes SAM/BAM file input from Bismark and BSMap
     + Happy to collaborate on new analysis if you want to try it out
-- Why do we care about intra-tumor heterogeneity?
+>- Why do we care about intra-tumor heterogeneity?
 

@@ -1,9 +1,9 @@
 ## Gene expression anti-profiles
 
-- molecular methods for cancer detection, prognosis and treatment matching will be the basis of individualized medicine
-- gene expression profile methods have been subject of study for decades
-- very few proposed predictors are translated to the clinic
-- one of the biggest culprits is lack of replicability of results in preliminary studies
+>- Molecular methods for cancer detection, prognosis and treatment matching will be the basis of individualized medicine
+>- gene expression profile methods have been subject of study for decades
+>- very few proposed predictors are translated to the clinic
+>- one of the biggest culprits is lack of replication of results in preliminary studies
 
 <div class="centered">
 <img src="img/wikum.png" style="height: 200px;" />

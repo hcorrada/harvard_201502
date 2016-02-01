@@ -14,7 +14,7 @@ output:
 
 ----
 
-**Interdisciplinary Group**
+**Members from diverse disciplines**
 
 - Computer Science
 - Applied Statistics and Scientific Computation
@@ -32,13 +32,13 @@ output:
 **Metagenomics**
 
 - DNA sequencing of bacterial communities
-- Method and tool development: `metagenomeSeq` Bioconductor package
-- Large epidemiological study of childhood diahrrea in developing countries
+- Method and tool development: `metagenomeSeq` Bioconductor package (Nat. Methods 2014)
+- Large epidemiological study of childhood diahrrea in developing countries (Genome Biology 2015)
 
 **Host-pathogen interaction**
 
-- Joint RNA-sequencing of parasite and host cell during course of infection
-- Novel methodology for RNA-seq normalization and differential expression analysis
+- Joint RNA sequencing of parasite and host cell during course of infection (NAR 2015, PLOS Pathogens 2015)
+- Novel methodology for RNA-seq normalization and differential expression analysis (Biostatistics 2015)
 
 **Computational Epigenomics**
 
@@ -62,8 +62,8 @@ output:
 
 **NHGRI strategic plan**
 
-> "The major bottleneck in genome sequencing is no longer **data generation**—the computational challenges around
-> **data analysis**, display and integration are now rate limiting. New approaches and methods are required 
+> "The major **bottleneck** in genome sequencing is **no longer data generation**—the computational challenges around
+> **data analysis, display and integration** are now rate limiting. New approaches and methods are required 
 > to meet these challenges."
 
 - Data analysis 
@@ -89,11 +89,10 @@ output:
 
 ## Moving forward
 
->- better understand connection between intra-tumor heterogeneity and consistent hyper-variability in cancer
->- how to understand population-level inferences from features (measurements) that are themselves _inferred_
->- move anti-profiles closer to the clinic
->- explore _anomaly classification_ as a general learning setting
->- methods to understand hierarchical organization of epigenomic domains
+>- Better understand connection between intra-tumor heterogeneity and consistent hyper-variability in cancer
+>- How to understand population-level inferences from features (measurements) that are themselves _inferred_
+>- Move anti-profiles closer to the clinic
+>- Explore _anomaly classification_ as a general learning setting
 
 ----
 
@@ -112,10 +111,10 @@ output:
 
 ## Moving forward
 
-- collaborative computational and visual analysis
-- effective visual methods to explore hierarchical organization of (epi)-genome
-- deeper integration of statistically-informed visualization
-- visualization-informed statistical analysis
+>- Collaborative computational and visual analysis
+>- Effective visual methods to explore hierarchical organization of (epi)-genome
+>- Deeper integration of statistically-informed visualization
+>- Visualization-informed statistical analysis
 
 <div class="centered">
 <img src="img/florin.png" style="height: 200px;" />
