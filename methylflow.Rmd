@@ -148,13 +148,15 @@ _Reconstruct patterns 4-100x basepair length_
 
 **Pattern reconstruction from whole genome bisulfite sequencing**
 
-_Reconstruct patterns with accurate marginal estimates_
-
-<div class="centered">
-<img src="img/bcell2.png" style="height: 525px;" />
-</div>
+_Reconstruct patterns with accurate marginal estimates_  
 
 (correlation ~.93)
+
+<div class="centered">
+<img src="img/bcell2.png" style="height: 500px;" />
+</div>
+
+
 
 ---
 
