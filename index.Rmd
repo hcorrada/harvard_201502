@@ -4,7 +4,7 @@ subtitle: "Héctor Corrada Bravo"
 author: 
   name: Center for Bioinformatics and Computational Biology
   company: University of Maryland, College Park
-date: "February 1, 2016"
+date: "April 9, 2016"
 output: 
   ioslides_presentation:
     css: hcb_styles.css
